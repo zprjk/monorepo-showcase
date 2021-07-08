@@ -1,0 +1,12 @@
+{
+  "name": "example-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-pkg": "babel src --extensions .ts --root-mode upward --out-dir dist --source-maps --delete-dir-on-start --no-comments"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

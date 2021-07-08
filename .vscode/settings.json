@@ -1,0 +1,13 @@
+{
+  // prettier format + eslint linting on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+
+  // disable vscode-ts check in js files
+  "javascript.validate.enable": false,
+
+  // ts files support in eslint extension
+  // https://github.com/Microsoft/vscode-eslint/issues/609
+  "eslint.validate": ["javascript", {"language": "typescript", "autoFix": true}]
+}

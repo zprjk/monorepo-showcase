@@ -1,0 +1,15 @@
+{
+  "name": "s-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-pkg": "babel src --root-mode upward --out-dir dist --source-maps --delete-dir-on-start --no-comments"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.7.0"
+  }
+}

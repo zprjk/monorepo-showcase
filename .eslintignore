@@ -1,0 +1,5 @@
+# node modules directories
+node_modules
+
+# Build dirs
+dist

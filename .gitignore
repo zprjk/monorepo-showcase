@@ -1,0 +1,14 @@
+# Tool logging
+*.log
+
+# node modules directories
+node_modules
+
+# environment variables files
+.env
+
+# Build dirs
+dist
+
+# Jest report code coverage
+coverage
